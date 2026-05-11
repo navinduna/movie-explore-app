@@ -1,4 +1,4 @@
-const API_KEY = '7e3ab06efe7e8901139416334bd9b4dc'; // TMDB එකෙන් නොමිලේ ගන්න පුළුවන්
+const API_KEY = '7e3ab06efe7e8901139416334bd9b4dc';
 const BASE_URL = 'https://api.themoviedb.org/3';
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 
