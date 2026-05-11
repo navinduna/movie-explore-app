@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieXplore | Discover & Save</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            background-color: #0f172a;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="p-5">
+
+    <!-- Header Section -->
+    <div class="max-w-6xl mx-auto flex justify-between items-center mb-10">
+        <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+            MovieXplore
+        </h1>
+        <div class="relative w-1/2">
+            <input type="text" id="searchInput" placeholder="Search movies..."
+                class="w-full p-3 pl-10 rounded-full glass focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+            <i class="fa fa-search absolute left-4 top-4 text-gray-400"></i>
+        </div>
+        <button onclick="showSaved()" class="glass px-5 py-2 rounded-full hover:bg-white/20 transition">
+            <i class="fa fa-bookmark text-yellow-400"></i> Saved
+        </button>
+    </div>
+
+    <!-- Movie Grid -->
+    <div id="movieGrid" class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <!-- Movies will be loaded here using Ajax/Fetch -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
