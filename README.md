@@ -21,4 +21,4 @@ MovieXplore කියන්නේ පරිශීලකයන්ට ඉතාම
 
 1. මෙම Repository එක **Clone** කරන්න:
    ```bash
-   git clone [https://github.com/ඔබ](https://github.com/ඔබ)ේ-පරිශීලක-නාමය/movie-explore-app.git
+   git clone [https://github.com/ඔබ](https://github.com/ඔබ)ේ-පරිශීලක-නාමය/movie-explore-app.git](https://github.com/navinduna/movie-explore-app.git)
